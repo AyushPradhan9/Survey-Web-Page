@@ -1,0 +1,106 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+<div class="main">
+    <h1 id="title">Bakery Survey</h1>
+    <p id="description">Help us improve our services to serve you better next time!</p>
+</div>
+<form id="survey-form">
+    <div>
+        <label id="name-label" for="name">Name</label>
+        <br>
+        <input id="name" type="text" placeholder="Enter your name" size="30" required/>
+    </div>
+    <div>
+        <label id="email-label" for="email">E-mail</label>
+        <br>
+        <input id="email" type="email" placeholder="Enter your email" size="30" required/>
+    </div>
+    <div>
+        <label id="number-label" for="number">Age</label>
+        <br>
+        <input id="number" type="number" min="6" max="100" placeholder="Enter your age" size="20" required/>
+    </div>
+    <div>
+        <label id="dropdown-label" for="dropdown">Our Reviewing Product</label>
+        <br>
+        <select id="dropdown" name="review" required>
+            <option disabled selected value>Select our product</option>
+            <option value="Cake">Cake</option>
+            <option vaule="Bread">Bread</option>
+            <option value="Biscuit">Biscuit</option>
+            <option value="Bun">Bun</option>
+            <option value="Pastery">Pastery</option>
+        </select>
+    </div>
+    <div>
+        <label id="review-label">Rate the above stated product</label>
+        <br>
+        <label>
+            <input value="Tasty" name="review" type="radio"/>
+            Tasty!
+        </label>
+        <br>
+        <label>
+            <input value="Ok Ok" name="review" type="radio"/>
+            Ok! Ok!
+        </label>
+        <br>
+        <label>
+            <input value="yuck" name="review" type="radio"/>
+            Yuck!
+        </label>
+    </div>
+    <div>
+        <label id="favorite-label" for="favorite">Your Favorite Product</label>
+        <br>
+        <select id="favorite" name="fav">
+            <option disabled selected value>Select our  product</option>
+            <option value="Cake">Cake</option>
+            <option vaule="Bread">Bread</option>
+            <option value="Biscuit">Biscuit</option>
+            <option value="Bun">Bun</option>
+            <option value="Pastery">Pastery</option>
+        </select>
+    </div>
+    <div>
+        <label id="Other-review-label" for="Other-review">What would you like to see improved?</label>
+        <br>
+        <label>
+            <input value="Cleaniless" type="checkbox"/>
+            Cleaniless
+        </label>
+        <br>
+        <label>
+            <input value="Staff-behaviour" type="checkbox"/>
+            Staff Behaviour
+        </label>
+        <br>
+        <label>
+            <input value="Quality" type="checkbox"/>
+            Quality
+        </label>
+        <br>
+        <label>
+            <input value="Quantity" type="checkbox"/>
+            Quantity
+        </label>
+        <br>
+        <label>
+            <input value="Value-for-money" type="checkbox"/>
+            Value for money
+        </label>
+        <br>
+        <label>
+            <input value="Others" type="checkbox"/>
+            Other (Mention in the comments)
+        </label>
+    </div>
+    <div>
+        <label>Any suggestions/comments?</label>
+        <br>
+        <textarea placeholder="Enter your suggestions here..."></textarea>
+    </div>
+    <div>
+        <button type="submit" id="submit">SUBMIT</button>
+    </div>
+</form> 
