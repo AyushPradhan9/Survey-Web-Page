@@ -1,5 +1,5 @@
 # Survey Web Page
-Responisve web page made with HTML and CSS for survey of products in bakery.
+Web page made with HTML and CSS for survey of products in bakery.
 
 ## Contents:
 - images folder: screenshots of web page
